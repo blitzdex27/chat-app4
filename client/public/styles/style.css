@@ -1,0 +1,224 @@
+/* SEARCH BAR START  */
+.SearchBar {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.SearchBar input {
+  width: 100%;
+  height: 100%;
+}
+
+/* .SearchBar button {
+  position: relative;
+  height: 30px;
+  margin: 0 5px;
+} */
+
+.SearchBar .SearchResult {
+  width: 100%;
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  top: 100%;
+  left: 0px;
+  right: 0px;
+}
+
+.SearchBar .SearchResult div {
+  padding: 5px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+/* SEARCH BAR END  */
+
+/* CHAT COMPOSER START  */
+
+/* CHAT COMPOSER END  */
+
+/* CHATBOX START  */
+.ChatBox {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  display: inline-block;
+}
+
+/* CHATBOX END  */
+
+/* CHAT ITEM START  */
+div.ChatItem {
+  border-top: 1px solid rgb(179, 176, 176);
+}
+.ChatItem > p {
+  font-size: 10px;
+}
+
+/* CHAT ITEM END  */
+
+/* CHAT COMPOSE START  */
+.ChatComposer {
+  width: 100%;
+  height: 100%;
+}
+
+.ChatComposer textarea {
+  display: inline;
+  width: 90%;
+  height: 100%;
+  outline: gray;
+  font-size: 12px;
+}
+.ChatComposer button {
+  position: relative;
+  bottom: 46%;
+  display: inline;
+  width: 10%;
+  height: 100%;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+/* CHAT COMPOSE END  */
+
+/* CONVERSATION ITEM START  */
+
+.Conversations {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+.ConversationItem {
+  border: 1px solid gray;
+  padding: 2px;
+}
+.ConversationItem:hover {
+  background-color: rgb(125, 179, 211);
+  cursor: pointer;
+}
+.ConversationItem:active {
+  outline: rgb(68, 67, 67);
+  background-color: rgb(0, 119, 128);
+}
+.convo-name {
+  font-weight: bold;
+  margin-bottom: 0;
+  font-size: small;
+}
+.convo-prev {
+  margin-bottom: 0;
+  font-size: x-small;
+  color: rgb(63, 62, 62);
+}
+
+/* CONVERSATION ITEM END  */
+
+/* CHAT BOARD START  */
+.ChatBoard {
+}
+.cHistory {
+  background-color: rgb(189, 159, 120);
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.cBox {
+  background-color: rgb(194, 215, 216);
+  display: inline-block;
+  width: 100%;
+  height: 70%;
+  margin-bottom: 2%;
+}
+.cCompose {
+  background-color: rgb(118, 139, 179);
+  display: inline-block;
+  width: 100%;
+  height: 28%;
+}
+.cSearch {
+  background-color: rgb(125, 211, 211);
+  display: inline-block;
+  width: 100%;
+  height: 10%;
+  margin-bottom: 7px;
+}
+.cReceipient {
+  background-color: rgb(113, 134, 76);
+  display: inline-block;
+  width: 100%;
+  height: 88.5%;
+}
+
+.left {
+  width: 25%;
+  height: 80vh;
+  background-color: cornflowerblue;
+  padding: 1%;
+}
+
+.middle {
+  width: 50%;
+  height: 80vh;
+  background-color: darkolivegreen;
+  padding: 1%;
+}
+
+.right {
+  width: 25%;
+  height: 80vh;
+  background-color: darkcyan;
+  padding: 1%;
+}
+
+.ChatBoard {
+  min-height: 90vh;
+}
+/* CHAT BOARD END  */
+
+/* NAV BAR START */
+
+.Navbar {
+  height: 30px;
+  width: 100%;
+  background-color: rgb(32, 31, 31);
+  display: inline-block;
+  margin: 0;
+  padding-left: 10px;
+}
+.Navbrand {
+  color: rgb(10, 10, 199);
+  font-weight: bold;
+  display: inline-block;
+}
+
+.Navbar  button {
+  margin-left: 20px;
+}
+/* NAV BAR END */
+
+/* NAV BRAND START  */
+
+/* NAV BRAND END */
+
+
+/* LOGIN START */
+
+#signin .page-single-form-container {
+  padding: 1rem 2rem;
+  margin: 2rem 20%;
+}
+/* LOGIN END */
+
+/* SIGN UP START  */
+
+#signup .page-single-form-container {
+  padding: 1rem 2rem;
+  margin: 2rem 10%;
+}
+
+/* SIGN UP END  */
